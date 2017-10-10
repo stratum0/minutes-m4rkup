@@ -23,7 +23,7 @@ define(«MARKDOWN_C_VOTE_ADOPTED»,  «MARKDOWN_TEXT_ADOPTED ($1|$2|$3)»)dnl
 define(«MARKDOWN_C_VOTE_REJECTED», «MARKDOWN_TEXT_REJECTED ($1|$2|$3)»)dnl
 dnl
 define(«MARKDOWN_C_RESOLUTION»,        «__$1 $2:__ ifelse(«$4», «», «$3», «$3 ($4)»)«»dnl
-ifelse(«$5», «», «», ««,» $5»)»)dnl
+ifelse(«$5», «», «», «. $5»)»)dnl
 dnl
 define(«_markdown_notes_template», ««ifelse(»»«PARAM(«$1»)»««,«»,«»,«. »»»dnl
 «PARAM($1)»««)»»)dnl
