@@ -37,6 +37,10 @@ define(«JSON_C_VOTE_REJECTED», «_json_divert_to_json()dnl
  { "approved": false«,» "type":"vote"«,» "pro": $1«,» "contra": $2«,» "abstain": $3 }dnl
  _json_divert_to_trash()»)dnl
 dnl
+define(«JSON_C_WITHDRAWN», «_json_divert_to_json()dnl
+ { "approved": false«,» "type":"withdrawn"«,» "reason": "$1" }dnl
+ _json_divert_to_trash()»)dnl
+dnl
 dnl These get redefined later, we only need them once
 define(«_json_content_array_start»,     «"content": [»)dnl
 define(«_json_content_array_delimiter», «,»)dnl

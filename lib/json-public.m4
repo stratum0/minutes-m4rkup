@@ -9,6 +9,7 @@ define(«JSON_P_CONSENSUS_ADOPTED»,  «JSON_C_CONSENSUS_ADOPTED($@)»)dnl
 define(«JSON_P_CONSENSUS_REJECTED», «JSON_C_CONSENSUS_REJECTED($@)»)dnl
 define(«JSON_P_VOTE_ADOPTED»,       «JSON_C_VOTE_ADOPTED($@)»)dnl
 define(«JSON_P_VOTE_REJECTED»,      «JSON_C_VOTE_REJECTED($@)»)dnl
+define(«JSON_P_WITHDRAWN»,          «JSON_C_WITHDRAWN($@)»)dnl
 define(«JSON_P_RESOLUTION»,         «JSON_C_RESOLUTION($@)»)dnl
 define(«JSON_P_TODO»,               «JSON_C_TODO($@)»)dnl
 define(«JSON_P_DONE»,               «JSON_C_DONE($@)»)dnl

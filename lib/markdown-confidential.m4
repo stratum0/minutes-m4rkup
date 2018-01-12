@@ -21,6 +21,7 @@ define(«MARKDOWN_C_CONSENSUS_REJECTED», «MARKDOWN_TEXT_REJECTED (MARKDOWN_TEX
 dnl
 define(«MARKDOWN_C_VOTE_ADOPTED»,  «MARKDOWN_TEXT_ADOPTED ($1|$2|$3)»)dnl
 define(«MARKDOWN_C_VOTE_REJECTED», «MARKDOWN_TEXT_REJECTED ($1|$2|$3)»)dnl
+define(«MARKDOWN_C_WITHDRAWN»,     «[MARKDOWN_TEXT_WITHDRAWN«,» $1]»)dnl
 dnl
 define(«MARKDOWN_C_RESOLUTION»,        «__$1 $2:__ ifelse(«$4», «», «$3», «$3 ($4)»)«»dnl
 ifelse(«$5», «», «», «. $5»)»)dnl

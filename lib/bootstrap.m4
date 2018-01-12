@@ -51,6 +51,7 @@ define(«CONSENSUS_ADOPTED»,  F_CODE«_»V_CODE«_CONSENSUS_ADOPTED($@)»)dnl
 define(«CONSENSUS_REJECTED», F_CODE«_»V_CODE«_CONSENSUS_REJECTED($@)»)dnl
 define(«VOTE_ADOPTED»,       F_CODE«_»V_CODE«_VOTE_ADOPTED($@)»)dnl
 define(«VOTE_REJECTED»,      F_CODE«_»V_CODE«_VOTE_REJECTED($@)»)dnl
+define(«WITHDRAWN»,          F_CODE«_»V_CODE«_WITHDRAWN($@)»)dnl
 define(«RESOLUTION»,         F_CODE«_»V_CODE«_RESOLUTION($@)»)dnl
 define(«TODO»,               F_CODE«_»V_CODE«_TODO($@)»)dnl
 define(«DONE»,               F_CODE«_»V_CODE«_DONE($@)»)dnl
